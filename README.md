@@ -2,3 +2,5 @@
 Shiny App for Power Analysis via Simulation
 
 Just changing my version?
+
+Looks good :-)
