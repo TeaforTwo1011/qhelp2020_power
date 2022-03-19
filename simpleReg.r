@@ -5,7 +5,7 @@ simpleReg_generate <- function(n = 30, alpha = 0, beta = 0, err = 1,
     data.frame(x, y)
 }
 
-simpleReg_fit <- function(rep = 100, n = 30, alpha = 0, beta = 0, err = 1,
+simpleReg_fit <- function(rep = 1000, n = 30, alpha = 0, beta = 0, err = 1,
                           x_mean = 0, x_sd = 1){
     replicate(rep, {
     dat <- simpleReg_generate(n = n, alpha = alpha, beta = beta, err = err,
